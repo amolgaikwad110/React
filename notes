@@ -1,0 +1,28 @@
+React JS
+
+Setting Up Web Server 
+    npm i -g live-server 
+    live-server public
+
+Babel 
+    npm i -g babel-cli 
+    npm i babel-preset-env
+    npm i babel-preset-react
+    babel script/app.js --out-file=public/js/app.js --presets=env,react --watch
+
+JSX == Javascript XML 
+
+
+ReactDOM.render(first, second) it takes two argument
+first one is JSX we need to render
+second one is DOM Element where we need to render 
+    ReactDOM.render(template, appRoot);
+
+
+ES6 
+let and const == Block scoping
+If you need to reassign variable then use let.
+If you don't need to reassign variable then use const. 
+
+arrow functions == 
+All arrow functions are Annonymous
